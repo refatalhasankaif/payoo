@@ -9,7 +9,7 @@ Payoo is a simple yet functional mobile banking interface demonstrating core web
 - JavaScript (DOM Manipulation)
 
 ## 🌐 Live
-[Click here to see live website](https://refatalhasan.github.io/payoo/)
+[Click here to see live website](https://thegetosuguru.github.io/payoo/)
 
 ## 🔑 Demo Login Credentials
 
@@ -22,8 +22,7 @@ PIN:
 ```
 1234
 ```
-## 🔗 Clone this repo
 
-```
-git clone https://github.com/refatalhasan/payoo.git
-```
+## 🖼️ Preview
+
+![Preview](assets/preview.png)
