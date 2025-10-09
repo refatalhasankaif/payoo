@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="shortcut icon" href="../payoo/assets/payoo.png" type="image/x-icon">
+    <title>Payoo | Login</title>
+</head>
+<body>
+    <section id="hero">
+        <img id="bg-img" src="assets/bg.png" alt="">
+        <img src="assets/Group.png" alt="">
+        <form id="login-form" onsubmit="return validateForm(event)">
+            <label for="mobile">Mobile Number</label>
+            <input id="mobile" required type="number" placeholder="Enter your mobile">
+            <label for="pin">Pin</label>
+            <input id="pin" required type="password" minlength="4" autocomplete="off" placeholder="Enter your pin">
+            <button type="submit" id="login-btn">Login</button>
+        </form>
+    </section>
+
+    <script src="script/script.js"></script>
+</body>
+
+</html>

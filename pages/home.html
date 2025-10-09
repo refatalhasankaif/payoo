@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../assets/payoo.png" type="image/x-icon">
+    <link rel="stylesheet" href="../style/home.css">
+    <title>Payoo | Home</title>
+</head>
+
+<body>
+    <main>
+        <section id="upper-sec">
+            <div id="balance-card">
+                <h4>$<span id="balance">580</span></h4>
+                <p>Available Balance</p>
+            </div>
+            <div id="img-card">
+                <img src="../assets/payoo.png" alt="">
+            </div>
+        </section>
+
+        <section id="lower-sec">
+            <div id="btn-div">
+                <button id="addmny-btn-tgl">Add Money</button>
+                <button id="cashout-btn-tgl">Cash out</button>
+            </div>
+            <div id="form-sec">
+                <div id="form-div">
+
+                    <!-- add money -->
+                    <form   id="add-mny-form">
+                        <label for="amount">Add money amount</label>
+                        <input id="amount" required type="number" placeholder="Enter Amount">
+                        <label for="pin">Pin</label>
+                        <input id="pin" required type="password" minlength="4" autocomplete="off"
+                            placeholder="Enter Pin">
+                        <button type="submit" id="add-mny-btn">Add Money</button>
+                    </form>
+
+                    <!-- cash out -->
+                    <form style="display:none" id="cashout-form">
+                        <label for="cashout-amount">Cash out amount</label>
+                        <input id="cashout-amount" required type="number" placeholder="Enter Cashout Amount">
+                        <label for="pin-number">Pin</label>
+                        <input id="pin-number" required type="password" minlength="4" autocomplete="off"
+                            placeholder="Enter Pin">
+                        <button type="submit" id="cashout-btn">Add Money</button>
+                    </form>
+
+                </div>
+            </div>
+        </section>
+        <script src="../script/features.js"></script>
+        <script src="../script/home.js"></script>
+    </main>
+</body>
+
+</html>
